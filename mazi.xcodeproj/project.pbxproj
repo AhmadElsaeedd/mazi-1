@@ -1,0 +1,1224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A93EA7FA2B090F4100CA1A3A /* maziApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA7F92B090F4100CA1A3A /* maziApp.swift */; };
+		A93EA7FC2B090F4100CA1A3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA7FB2B090F4100CA1A3A /* ContentView.swift */; };
+		A93EA7FE2B090F4100CA1A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93EA7FD2B090F4100CA1A3A /* Assets.xcassets */; };
+		A93EA8022B090F4100CA1A3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93EA8012B090F4100CA1A3A /* Preview Assets.xcassets */; };
+		A93EA80C2B090F4200CA1A3A /* maziTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA80B2B090F4200CA1A3A /* maziTests.swift */; };
+		A93EA8162B090F4200CA1A3A /* maziUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA8152B090F4200CA1A3A /* maziUITests.swift */; };
+		A93EA8182B090F4200CA1A3A /* maziUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA8172B090F4200CA1A3A /* maziUITestsLaunchTests.swift */; };
+		A93EA82B2B0910F200CA1A3A /* maziwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA82A2B0910F200CA1A3A /* maziwatchApp.swift */; };
+		A93EA82D2B0910F200CA1A3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA82C2B0910F200CA1A3A /* ContentView.swift */; };
+		A93EA82F2B0910F300CA1A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93EA82E2B0910F300CA1A3A /* Assets.xcassets */; };
+		A93EA8322B0910F300CA1A3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93EA8312B0910F300CA1A3A /* Preview Assets.xcassets */; };
+		A93EA83C2B0910F300CA1A3A /* maziwatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA83B2B0910F300CA1A3A /* maziwatch_Watch_AppTests.swift */; };
+		A93EA8462B0910F300CA1A3A /* maziwatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA8452B0910F300CA1A3A /* maziwatch_Watch_AppUITests.swift */; };
+		A93EA8482B0910F300CA1A3A /* maziwatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA8472B0910F300CA1A3A /* maziwatch_Watch_AppUITestsLaunchTests.swift */; };
+		A93EA84B2B0910F300CA1A3A /* maziwatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A93EA8282B0910F200CA1A3A /* maziwatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A93EA8572B09118500CA1A3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A93EA8562B09118400CA1A3A /* GoogleService-Info.plist */; };
+		A93EA85A2B09126500CA1A3A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A93EA8592B09126500CA1A3A /* FirebaseAnalytics */; };
+		A93EA85C2B09126500CA1A3A /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A93EA85B2B09126500CA1A3A /* FirebaseAnalyticsSwift */; };
+		A93EA85E2B09126500CA1A3A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A93EA85D2B09126500CA1A3A /* FirebaseAuth */; };
+		A93EA8602B09126500CA1A3A /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A93EA85F2B09126500CA1A3A /* FirebaseDatabase */; };
+		A93EA8622B09126500CA1A3A /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A93EA8612B09126500CA1A3A /* FirebaseDatabaseSwift */; };
+		A93EA8642B09126500CA1A3A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A93EA8632B09126500CA1A3A /* FirebaseFirestore */; };
+		A93EA8662B09126500CA1A3A /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A93EA8652B09126500CA1A3A /* FirebaseFirestoreCombine-Community */; };
+		A93EA8682B09126500CA1A3A /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A93EA8672B09126500CA1A3A /* FirebaseFirestoreSwift */; };
+		A93EA86A2B09126500CA1A3A /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = A93EA8692B09126500CA1A3A /* FirebaseFunctions */; };
+		A93EA86C2B09126500CA1A3A /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A93EA86B2B09126500CA1A3A /* FirebaseFunctionsCombine-Community */; };
+		A93EA86E2B09126500CA1A3A /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A93EA86D2B09126500CA1A3A /* FirebaseInAppMessaging-Beta */; };
+		A93EA8702B09126500CA1A3A /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A93EA86F2B09126500CA1A3A /* FirebaseInAppMessagingSwift-Beta */; };
+		A93EA8722B09126500CA1A3A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A93EA8712B09126500CA1A3A /* FirebaseMessaging */; };
+		A93EA8772B0914CA00CA1A3A /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA8762B0914CA00CA1A3A /* AuthenticationService.swift */; };
+		A93EA8792B09158C00CA1A3A /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA8782B09158C00CA1A3A /* FirestoreService.swift */; };
+		A93EA87B2B09171200CA1A3A /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA87A2B09171200CA1A3A /* Greeting.swift */; };
+		A93EA87D2B091AC100CA1A3A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA87C2B091AC100CA1A3A /* Login.swift */; };
+		A93EA87F2B091B8900CA1A3A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA87E2B091B8900CA1A3A /* LoginViewModel.swift */; };
+		A93EA8812B091C9A00CA1A3A /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA8802B091C9A00CA1A3A /* Homepage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A93EA8082B090F4200CA1A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93EA7EE2B090F4100CA1A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93EA7F52B090F4100CA1A3A;
+			remoteInfo = mazi;
+		};
+		A93EA8122B090F4200CA1A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93EA7EE2B090F4100CA1A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93EA7F52B090F4100CA1A3A;
+			remoteInfo = mazi;
+		};
+		A93EA8382B0910F300CA1A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93EA7EE2B090F4100CA1A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93EA8272B0910F200CA1A3A;
+			remoteInfo = "maziwatch Watch App";
+		};
+		A93EA8422B0910F300CA1A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93EA7EE2B090F4100CA1A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93EA8272B0910F200CA1A3A;
+			remoteInfo = "maziwatch Watch App";
+		};
+		A93EA8492B0910F300CA1A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93EA7EE2B090F4100CA1A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93EA8272B0910F200CA1A3A;
+			remoteInfo = "maziwatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A93EA84F2B0910F300CA1A3A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A93EA84B2B0910F300CA1A3A /* maziwatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A93EA7F62B090F4100CA1A3A /* mazi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mazi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93EA7F92B090F4100CA1A3A /* maziApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maziApp.swift; sourceTree = "<group>"; };
+		A93EA7FB2B090F4100CA1A3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A93EA7FD2B090F4100CA1A3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A93EA7FF2B090F4100CA1A3A /* mazi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mazi.entitlements; sourceTree = "<group>"; };
+		A93EA8012B090F4100CA1A3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A93EA8072B090F4200CA1A3A /* maziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93EA80B2B090F4200CA1A3A /* maziTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maziTests.swift; sourceTree = "<group>"; };
+		A93EA8112B090F4200CA1A3A /* maziUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maziUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93EA8152B090F4200CA1A3A /* maziUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maziUITests.swift; sourceTree = "<group>"; };
+		A93EA8172B090F4200CA1A3A /* maziUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maziUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A93EA8282B0910F200CA1A3A /* maziwatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "maziwatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93EA82A2B0910F200CA1A3A /* maziwatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maziwatchApp.swift; sourceTree = "<group>"; };
+		A93EA82C2B0910F200CA1A3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A93EA82E2B0910F300CA1A3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A93EA8312B0910F300CA1A3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A93EA8372B0910F300CA1A3A /* maziwatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "maziwatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93EA83B2B0910F300CA1A3A /* maziwatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maziwatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		A93EA8412B0910F300CA1A3A /* maziwatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "maziwatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93EA8452B0910F300CA1A3A /* maziwatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maziwatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		A93EA8472B0910F300CA1A3A /* maziwatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maziwatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A93EA8562B09118400CA1A3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A93EA8762B0914CA00CA1A3A /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		A93EA8782B09158C00CA1A3A /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		A93EA87A2B09171200CA1A3A /* Greeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
+		A93EA87C2B091AC100CA1A3A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		A93EA87E2B091B8900CA1A3A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A93EA8802B091C9A00CA1A3A /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		A93EA8822B0920F000CA1A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A93EA7F32B090F4100CA1A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93EA8622B09126500CA1A3A /* FirebaseDatabaseSwift in Frameworks */,
+				A93EA85C2B09126500CA1A3A /* FirebaseAnalyticsSwift in Frameworks */,
+				A93EA85E2B09126500CA1A3A /* FirebaseAuth in Frameworks */,
+				A93EA86C2B09126500CA1A3A /* FirebaseFunctionsCombine-Community in Frameworks */,
+				A93EA86A2B09126500CA1A3A /* FirebaseFunctions in Frameworks */,
+				A93EA8602B09126500CA1A3A /* FirebaseDatabase in Frameworks */,
+				A93EA86E2B09126500CA1A3A /* FirebaseInAppMessaging-Beta in Frameworks */,
+				A93EA85A2B09126500CA1A3A /* FirebaseAnalytics in Frameworks */,
+				A93EA8722B09126500CA1A3A /* FirebaseMessaging in Frameworks */,
+				A93EA8642B09126500CA1A3A /* FirebaseFirestore in Frameworks */,
+				A93EA8662B09126500CA1A3A /* FirebaseFirestoreCombine-Community in Frameworks */,
+				A93EA8702B09126500CA1A3A /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				A93EA8682B09126500CA1A3A /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93EA8042B090F4200CA1A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93EA80E2B090F4200CA1A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93EA8252B0910F200CA1A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93EA8342B0910F300CA1A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93EA83E2B0910F300CA1A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A93EA7ED2B090F4100CA1A3A = {
+			isa = PBXGroup;
+			children = (
+				A93EA7F82B090F4100CA1A3A /* mazi */,
+				A93EA80A2B090F4200CA1A3A /* maziTests */,
+				A93EA8142B090F4200CA1A3A /* maziUITests */,
+				A93EA8292B0910F200CA1A3A /* maziwatch Watch App */,
+				A93EA83A2B0910F300CA1A3A /* maziwatch Watch AppTests */,
+				A93EA8442B0910F300CA1A3A /* maziwatch Watch AppUITests */,
+				A93EA7F72B090F4100CA1A3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A93EA7F72B090F4100CA1A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A93EA7F62B090F4100CA1A3A /* mazi.app */,
+				A93EA8072B090F4200CA1A3A /* maziTests.xctest */,
+				A93EA8112B090F4200CA1A3A /* maziUITests.xctest */,
+				A93EA8282B0910F200CA1A3A /* maziwatch Watch App.app */,
+				A93EA8372B0910F300CA1A3A /* maziwatch Watch AppTests.xctest */,
+				A93EA8412B0910F300CA1A3A /* maziwatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A93EA7F82B090F4100CA1A3A /* mazi */ = {
+			isa = PBXGroup;
+			children = (
+				A93EA8822B0920F000CA1A3A /* Info.plist */,
+				A93EA8562B09118400CA1A3A /* GoogleService-Info.plist */,
+				A93EA8752B0913A700CA1A3A /* Services */,
+				A93EA8742B09139A00CA1A3A /* ViewModels */,
+				A93EA8732B09137E00CA1A3A /* Views */,
+				A93EA7F92B090F4100CA1A3A /* maziApp.swift */,
+				A93EA7FD2B090F4100CA1A3A /* Assets.xcassets */,
+				A93EA7FF2B090F4100CA1A3A /* mazi.entitlements */,
+				A93EA8002B090F4100CA1A3A /* Preview Content */,
+			);
+			path = mazi;
+			sourceTree = "<group>";
+		};
+		A93EA8002B090F4100CA1A3A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A93EA8012B090F4100CA1A3A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A93EA80A2B090F4200CA1A3A /* maziTests */ = {
+			isa = PBXGroup;
+			children = (
+				A93EA80B2B090F4200CA1A3A /* maziTests.swift */,
+			);
+			path = maziTests;
+			sourceTree = "<group>";
+		};
+		A93EA8142B090F4200CA1A3A /* maziUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A93EA8152B090F4200CA1A3A /* maziUITests.swift */,
+				A93EA8172B090F4200CA1A3A /* maziUITestsLaunchTests.swift */,
+			);
+			path = maziUITests;
+			sourceTree = "<group>";
+		};
+		A93EA8292B0910F200CA1A3A /* maziwatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A93EA82A2B0910F200CA1A3A /* maziwatchApp.swift */,
+				A93EA82C2B0910F200CA1A3A /* ContentView.swift */,
+				A93EA82E2B0910F300CA1A3A /* Assets.xcassets */,
+				A93EA8302B0910F300CA1A3A /* Preview Content */,
+			);
+			path = "maziwatch Watch App";
+			sourceTree = "<group>";
+		};
+		A93EA8302B0910F300CA1A3A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A93EA8312B0910F300CA1A3A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A93EA83A2B0910F300CA1A3A /* maziwatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A93EA83B2B0910F300CA1A3A /* maziwatch_Watch_AppTests.swift */,
+			);
+			path = "maziwatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		A93EA8442B0910F300CA1A3A /* maziwatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A93EA8452B0910F300CA1A3A /* maziwatch_Watch_AppUITests.swift */,
+				A93EA8472B0910F300CA1A3A /* maziwatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "maziwatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		A93EA8732B09137E00CA1A3A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A93EA7FB2B090F4100CA1A3A /* ContentView.swift */,
+				A93EA87A2B09171200CA1A3A /* Greeting.swift */,
+				A93EA87C2B091AC100CA1A3A /* Login.swift */,
+				A93EA8802B091C9A00CA1A3A /* Homepage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A93EA8742B09139A00CA1A3A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A93EA87E2B091B8900CA1A3A /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A93EA8752B0913A700CA1A3A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A93EA8762B0914CA00CA1A3A /* AuthenticationService.swift */,
+				A93EA8782B09158C00CA1A3A /* FirestoreService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A93EA7F52B090F4100CA1A3A /* mazi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93EA81B2B090F4200CA1A3A /* Build configuration list for PBXNativeTarget "mazi" */;
+			buildPhases = (
+				A93EA7F22B090F4100CA1A3A /* Sources */,
+				A93EA7F32B090F4100CA1A3A /* Frameworks */,
+				A93EA7F42B090F4100CA1A3A /* Resources */,
+				A93EA84F2B0910F300CA1A3A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A93EA84A2B0910F300CA1A3A /* PBXTargetDependency */,
+			);
+			name = mazi;
+			packageProductDependencies = (
+				A93EA8592B09126500CA1A3A /* FirebaseAnalytics */,
+				A93EA85B2B09126500CA1A3A /* FirebaseAnalyticsSwift */,
+				A93EA85D2B09126500CA1A3A /* FirebaseAuth */,
+				A93EA85F2B09126500CA1A3A /* FirebaseDatabase */,
+				A93EA8612B09126500CA1A3A /* FirebaseDatabaseSwift */,
+				A93EA8632B09126500CA1A3A /* FirebaseFirestore */,
+				A93EA8652B09126500CA1A3A /* FirebaseFirestoreCombine-Community */,
+				A93EA8672B09126500CA1A3A /* FirebaseFirestoreSwift */,
+				A93EA8692B09126500CA1A3A /* FirebaseFunctions */,
+				A93EA86B2B09126500CA1A3A /* FirebaseFunctionsCombine-Community */,
+				A93EA86D2B09126500CA1A3A /* FirebaseInAppMessaging-Beta */,
+				A93EA86F2B09126500CA1A3A /* FirebaseInAppMessagingSwift-Beta */,
+				A93EA8712B09126500CA1A3A /* FirebaseMessaging */,
+			);
+			productName = mazi;
+			productReference = A93EA7F62B090F4100CA1A3A /* mazi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A93EA8062B090F4200CA1A3A /* maziTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93EA81E2B090F4200CA1A3A /* Build configuration list for PBXNativeTarget "maziTests" */;
+			buildPhases = (
+				A93EA8032B090F4200CA1A3A /* Sources */,
+				A93EA8042B090F4200CA1A3A /* Frameworks */,
+				A93EA8052B090F4200CA1A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A93EA8092B090F4200CA1A3A /* PBXTargetDependency */,
+			);
+			name = maziTests;
+			productName = maziTests;
+			productReference = A93EA8072B090F4200CA1A3A /* maziTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A93EA8102B090F4200CA1A3A /* maziUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93EA8212B090F4200CA1A3A /* Build configuration list for PBXNativeTarget "maziUITests" */;
+			buildPhases = (
+				A93EA80D2B090F4200CA1A3A /* Sources */,
+				A93EA80E2B090F4200CA1A3A /* Frameworks */,
+				A93EA80F2B090F4200CA1A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A93EA8132B090F4200CA1A3A /* PBXTargetDependency */,
+			);
+			name = maziUITests;
+			productName = maziUITests;
+			productReference = A93EA8112B090F4200CA1A3A /* maziUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A93EA8272B0910F200CA1A3A /* maziwatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93EA84C2B0910F300CA1A3A /* Build configuration list for PBXNativeTarget "maziwatch Watch App" */;
+			buildPhases = (
+				A93EA8242B0910F200CA1A3A /* Sources */,
+				A93EA8252B0910F200CA1A3A /* Frameworks */,
+				A93EA8262B0910F200CA1A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "maziwatch Watch App";
+			productName = "maziwatch Watch App";
+			productReference = A93EA8282B0910F200CA1A3A /* maziwatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A93EA8362B0910F300CA1A3A /* maziwatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93EA8502B0910F300CA1A3A /* Build configuration list for PBXNativeTarget "maziwatch Watch AppTests" */;
+			buildPhases = (
+				A93EA8332B0910F300CA1A3A /* Sources */,
+				A93EA8342B0910F300CA1A3A /* Frameworks */,
+				A93EA8352B0910F300CA1A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A93EA8392B0910F300CA1A3A /* PBXTargetDependency */,
+			);
+			name = "maziwatch Watch AppTests";
+			productName = "maziwatch Watch AppTests";
+			productReference = A93EA8372B0910F300CA1A3A /* maziwatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A93EA8402B0910F300CA1A3A /* maziwatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93EA8532B0910F300CA1A3A /* Build configuration list for PBXNativeTarget "maziwatch Watch AppUITests" */;
+			buildPhases = (
+				A93EA83D2B0910F300CA1A3A /* Sources */,
+				A93EA83E2B0910F300CA1A3A /* Frameworks */,
+				A93EA83F2B0910F300CA1A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A93EA8432B0910F300CA1A3A /* PBXTargetDependency */,
+			);
+			name = "maziwatch Watch AppUITests";
+			productName = "maziwatch Watch AppUITests";
+			productReference = A93EA8412B0910F300CA1A3A /* maziwatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A93EA7EE2B090F4100CA1A3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A93EA7F52B090F4100CA1A3A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					A93EA8062B090F4200CA1A3A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A93EA7F52B090F4100CA1A3A;
+					};
+					A93EA8102B090F4200CA1A3A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A93EA7F52B090F4100CA1A3A;
+					};
+					A93EA8272B0910F200CA1A3A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					A93EA8362B0910F300CA1A3A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A93EA8272B0910F200CA1A3A;
+					};
+					A93EA8402B0910F300CA1A3A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A93EA8272B0910F200CA1A3A;
+					};
+				};
+			};
+			buildConfigurationList = A93EA7F12B090F4100CA1A3A /* Build configuration list for PBXProject "mazi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A93EA7ED2B090F4100CA1A3A;
+			packageReferences = (
+				A93EA8582B09126500CA1A3A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = A93EA7F72B090F4100CA1A3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A93EA7F52B090F4100CA1A3A /* mazi */,
+				A93EA8062B090F4200CA1A3A /* maziTests */,
+				A93EA8102B090F4200CA1A3A /* maziUITests */,
+				A93EA8272B0910F200CA1A3A /* maziwatch Watch App */,
+				A93EA8362B0910F300CA1A3A /* maziwatch Watch AppTests */,
+				A93EA8402B0910F300CA1A3A /* maziwatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A93EA7F42B090F4100CA1A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93EA8022B090F4100CA1A3A /* Preview Assets.xcassets in Resources */,
+				A93EA8572B09118500CA1A3A /* GoogleService-Info.plist in Resources */,
+				A93EA7FE2B090F4100CA1A3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93EA8052B090F4200CA1A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93EA80F2B090F4200CA1A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93EA8262B0910F200CA1A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93EA8322B0910F300CA1A3A /* Preview Assets.xcassets in Resources */,
+				A93EA82F2B0910F300CA1A3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93EA8352B0910F300CA1A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93EA83F2B0910F300CA1A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A93EA7F22B090F4100CA1A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93EA8772B0914CA00CA1A3A /* AuthenticationService.swift in Sources */,
+				A93EA8792B09158C00CA1A3A /* FirestoreService.swift in Sources */,
+				A93EA7FC2B090F4100CA1A3A /* ContentView.swift in Sources */,
+				A93EA87D2B091AC100CA1A3A /* Login.swift in Sources */,
+				A93EA87B2B09171200CA1A3A /* Greeting.swift in Sources */,
+				A93EA7FA2B090F4100CA1A3A /* maziApp.swift in Sources */,
+				A93EA87F2B091B8900CA1A3A /* LoginViewModel.swift in Sources */,
+				A93EA8812B091C9A00CA1A3A /* Homepage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93EA8032B090F4200CA1A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93EA80C2B090F4200CA1A3A /* maziTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93EA80D2B090F4200CA1A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93EA8162B090F4200CA1A3A /* maziUITests.swift in Sources */,
+				A93EA8182B090F4200CA1A3A /* maziUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93EA8242B0910F200CA1A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93EA82D2B0910F200CA1A3A /* ContentView.swift in Sources */,
+				A93EA82B2B0910F200CA1A3A /* maziwatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93EA8332B0910F300CA1A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93EA83C2B0910F300CA1A3A /* maziwatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93EA83D2B0910F300CA1A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93EA8462B0910F300CA1A3A /* maziwatch_Watch_AppUITests.swift in Sources */,
+				A93EA8482B0910F300CA1A3A /* maziwatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A93EA8092B090F4200CA1A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93EA7F52B090F4100CA1A3A /* mazi */;
+			targetProxy = A93EA8082B090F4200CA1A3A /* PBXContainerItemProxy */;
+		};
+		A93EA8132B090F4200CA1A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93EA7F52B090F4100CA1A3A /* mazi */;
+			targetProxy = A93EA8122B090F4200CA1A3A /* PBXContainerItemProxy */;
+		};
+		A93EA8392B0910F300CA1A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93EA8272B0910F200CA1A3A /* maziwatch Watch App */;
+			targetProxy = A93EA8382B0910F300CA1A3A /* PBXContainerItemProxy */;
+		};
+		A93EA8432B0910F300CA1A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93EA8272B0910F200CA1A3A /* maziwatch Watch App */;
+			targetProxy = A93EA8422B0910F300CA1A3A /* PBXContainerItemProxy */;
+		};
+		A93EA84A2B0910F300CA1A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93EA8272B0910F200CA1A3A /* maziwatch Watch App */;
+			targetProxy = A93EA8492B0910F300CA1A3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A93EA8192B090F4200CA1A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A93EA81A2B090F4200CA1A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A93EA81C2B090F4200CA1A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mazi/mazi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mazi/Preview Content\"";
+				DEVELOPMENT_TEAM = JALH6Q33D7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mazi/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedelsaid.mazi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A93EA81D2B090F4200CA1A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mazi/mazi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mazi/Preview Content\"";
+				DEVELOPMENT_TEAM = JALH6Q33D7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mazi/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedelsaid.mazi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A93EA81F2B090F4200CA1A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JALH6Q33D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedelsaid.maziTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mazi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mazi";
+			};
+			name = Debug;
+		};
+		A93EA8202B090F4200CA1A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JALH6Q33D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedelsaid.maziTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mazi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mazi";
+			};
+			name = Release;
+		};
+		A93EA8222B090F4200CA1A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JALH6Q33D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedelsaid.maziUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mazi;
+			};
+			name = Debug;
+		};
+		A93EA8232B090F4200CA1A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JALH6Q33D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedelsaid.maziUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mazi;
+			};
+			name = Release;
+		};
+		A93EA84D2B0910F300CA1A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"maziwatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JALH6Q33D7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = maziwatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.ahmedelsaid.mazi;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedelsaid.mazi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A93EA84E2B0910F300CA1A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"maziwatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JALH6Q33D7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = maziwatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.ahmedelsaid.mazi;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedelsaid.mazi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		A93EA8512B0910F300CA1A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JALH6Q33D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedelsaid.maziwatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maziwatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/maziwatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A93EA8522B0910F300CA1A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JALH6Q33D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedelsaid.maziwatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maziwatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/maziwatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		A93EA8542B0910F300CA1A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JALH6Q33D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedelsaid.maziwatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "maziwatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A93EA8552B0910F300CA1A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JALH6Q33D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedelsaid.maziwatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "maziwatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A93EA7F12B090F4100CA1A3A /* Build configuration list for PBXProject "mazi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93EA8192B090F4200CA1A3A /* Debug */,
+				A93EA81A2B090F4200CA1A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93EA81B2B090F4200CA1A3A /* Build configuration list for PBXNativeTarget "mazi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93EA81C2B090F4200CA1A3A /* Debug */,
+				A93EA81D2B090F4200CA1A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93EA81E2B090F4200CA1A3A /* Build configuration list for PBXNativeTarget "maziTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93EA81F2B090F4200CA1A3A /* Debug */,
+				A93EA8202B090F4200CA1A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93EA8212B090F4200CA1A3A /* Build configuration list for PBXNativeTarget "maziUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93EA8222B090F4200CA1A3A /* Debug */,
+				A93EA8232B090F4200CA1A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93EA84C2B0910F300CA1A3A /* Build configuration list for PBXNativeTarget "maziwatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93EA84D2B0910F300CA1A3A /* Debug */,
+				A93EA84E2B0910F300CA1A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93EA8502B0910F300CA1A3A /* Build configuration list for PBXNativeTarget "maziwatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93EA8512B0910F300CA1A3A /* Debug */,
+				A93EA8522B0910F300CA1A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93EA8532B0910F300CA1A3A /* Build configuration list for PBXNativeTarget "maziwatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93EA8542B0910F300CA1A3A /* Debug */,
+				A93EA8552B0910F300CA1A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A93EA8582B09126500CA1A3A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A93EA8592B09126500CA1A3A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93EA8582B09126500CA1A3A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A93EA85B2B09126500CA1A3A /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93EA8582B09126500CA1A3A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		A93EA85D2B09126500CA1A3A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93EA8582B09126500CA1A3A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A93EA85F2B09126500CA1A3A /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93EA8582B09126500CA1A3A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		A93EA8612B09126500CA1A3A /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93EA8582B09126500CA1A3A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		A93EA8632B09126500CA1A3A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93EA8582B09126500CA1A3A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A93EA8652B09126500CA1A3A /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93EA8582B09126500CA1A3A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		A93EA8672B09126500CA1A3A /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93EA8582B09126500CA1A3A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		A93EA8692B09126500CA1A3A /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93EA8582B09126500CA1A3A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		A93EA86B2B09126500CA1A3A /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93EA8582B09126500CA1A3A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		A93EA86D2B09126500CA1A3A /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93EA8582B09126500CA1A3A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		A93EA86F2B09126500CA1A3A /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93EA8582B09126500CA1A3A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		A93EA8712B09126500CA1A3A /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93EA8582B09126500CA1A3A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A93EA7EE2B090F4100CA1A3A /* Project object */;
+}
