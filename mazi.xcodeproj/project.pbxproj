@@ -42,6 +42,9 @@
 		A93EA87D2B091AC100CA1A3A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA87C2B091AC100CA1A3A /* Login.swift */; };
 		A93EA87F2B091B8900CA1A3A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA87E2B091B8900CA1A3A /* LoginViewModel.swift */; };
 		A93EA8812B091C9A00CA1A3A /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EA8802B091C9A00CA1A3A /* Homepage.swift */; };
+		A9C2285E2B09D77400A6129E /* ConnectToAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C2285D2B09D77400A6129E /* ConnectToAppViewModel.swift */; };
+		A9C2285F2B09D94400A6129E /* WatchFunctionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C228582B09D64E00A6129E /* WatchFunctionsViewModel.swift */; };
+		A9C228622B09D9AD00A6129E /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C228612B09D9AD00A6129E /* WatchConnectivity.framework */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +129,11 @@
 		A93EA87E2B091B8900CA1A3A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		A93EA8802B091C9A00CA1A3A /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
 		A93EA8822B0920F000CA1A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A995EB1D2B09DAD900AD9688 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.0.sdk/System/Library/Frameworks/WatchKit.framework; sourceTree = DEVELOPER_DIR; };
+		A995EB1E2B09DAD900AD9688 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		A9C228582B09D64E00A6129E /* WatchFunctionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchFunctionsViewModel.swift; sourceTree = "<group>"; };
+		A9C2285D2B09D77400A6129E /* ConnectToAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectToAppViewModel.swift; sourceTree = "<group>"; };
+		A9C228612B09D9AD00A6129E /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C228622B09D9AD00A6129E /* WatchConnectivity.framework in Frameworks */,
 				A93EA8622B09126500CA1A3A /* FirebaseDatabaseSwift in Frameworks */,
 				A93EA85C2B09126500CA1A3A /* FirebaseAnalyticsSwift in Frameworks */,
 				A93EA85E2B09126500CA1A3A /* FirebaseAuth in Frameworks */,
@@ -197,6 +206,7 @@
 				A93EA83A2B0910F300CA1A3A /* maziwatch Watch AppTests */,
 				A93EA8442B0910F300CA1A3A /* maziwatch Watch AppUITests */,
 				A93EA7F72B090F4100CA1A3A /* Products */,
+				A9C228602B09D9AD00A6129E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -257,8 +267,9 @@
 		A93EA8292B0910F200CA1A3A /* maziwatch Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				A9C2285B2B09D70F00A6129E /* ViewModels */,
+				A9C2285A2B09D70A00A6129E /* Views */,
 				A93EA82A2B0910F200CA1A3A /* maziwatchApp.swift */,
-				A93EA82C2B0910F200CA1A3A /* ContentView.swift */,
 				A93EA82E2B0910F300CA1A3A /* Assets.xcassets */,
 				A93EA8302B0910F300CA1A3A /* Preview Content */,
 			);
@@ -305,6 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				A93EA87E2B091B8900CA1A3A /* LoginViewModel.swift */,
+				A9C228582B09D64E00A6129E /* WatchFunctionsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -316,6 +328,32 @@
 				A93EA8782B09158C00CA1A3A /* FirestoreService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		A9C2285A2B09D70A00A6129E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A93EA82C2B0910F200CA1A3A /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A9C2285B2B09D70F00A6129E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2285D2B09D77400A6129E /* ConnectToAppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A9C228602B09D9AD00A6129E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A995EB1E2B09DAD900AD9688 /* WatchConnectivity.framework */,
+				A995EB1D2B09DAD900AD9688 /* WatchKit.framework */,
+				A9C228612B09D9AD00A6129E /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -560,6 +598,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A93EA8772B0914CA00CA1A3A /* AuthenticationService.swift in Sources */,
+				A9C2285F2B09D94400A6129E /* WatchFunctionsViewModel.swift in Sources */,
 				A93EA8792B09158C00CA1A3A /* FirestoreService.swift in Sources */,
 				A93EA7FC2B090F4100CA1A3A /* ContentView.swift in Sources */,
 				A93EA87D2B091AC100CA1A3A /* Login.swift in Sources */,
@@ -592,6 +631,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A93EA82D2B0910F200CA1A3A /* ContentView.swift in Sources */,
+				A9C2285E2B09D77400A6129E /* ConnectToAppViewModel.swift in Sources */,
 				A93EA82B2B0910F200CA1A3A /* maziwatchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
